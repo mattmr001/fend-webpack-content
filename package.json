@@ -11,6 +11,14 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
   }
 }
